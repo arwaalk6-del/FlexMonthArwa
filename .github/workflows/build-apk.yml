@@ -28,8 +28,7 @@ jobs:
 
       - name: Extract project
         run: |
-          mkdir project
-          unzip -q FlexMonthAndroid_v3_light.zip -d project
+          mkdir projectunzip FlexMonthAndroid_v3_light_FIXED.zip
 
       - name: Build APK
         working-directory: project
